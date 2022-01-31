@@ -36,7 +36,25 @@ public class PlayerMovement : MonoBehaviour {
 
 
     } // move player
+	
+    void ApplyGravity() {
 
+        vertical_Velocity -= gravity * Time.deltaTime;
+
+        // jump
+        PlayerJump();
+
+        move_Direction.y = vertical_Velocity * Time.deltaTime;
+
+    } // apply gravity
+
+    void PlayerJump() {
+
+        if(character_Controller.isGrounded && Input.GetKeyDown(KeyCode.Space)) {
+            vertical_Velocity = jump_Force;
+        }
+
+    }
     
 
 } // class
