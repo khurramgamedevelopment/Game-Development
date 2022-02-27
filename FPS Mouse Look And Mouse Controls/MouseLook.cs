@@ -97,7 +97,7 @@ public class MouseLook : MonoBehaviour
         playerRoot.localRotation = Quaternion.Euler(0f, look_Angles.y, 0f);
 
 
-    } //look around
+    } //look around 
 
 
 
