@@ -56,7 +56,7 @@ public class PlayerMovement : MonoBehaviour {
 
     }
     
-} // class
+} //class
 
 
 
