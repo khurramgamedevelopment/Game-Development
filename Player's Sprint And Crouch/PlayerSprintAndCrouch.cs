@@ -32,7 +32,7 @@ public class PlayerSprintAndCrouch : MonoBehaviour {
          player_Footsteps = GetComponentInChildren<PlayerFootsteps>();
         }
 void Start() {
-        player_Footsteps.volume_Min = walk_Volume_Min;
+        player_Footsteps.volume_Min = walk_Volume_Min; 
         player_Footsteps.volume_Max = walk_Volume_Max;
         player_Footsteps.step_Distance = walk_Step_Distance;
     }
