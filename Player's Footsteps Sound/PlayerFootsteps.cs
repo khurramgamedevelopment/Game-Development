@@ -31,7 +31,7 @@ public class PlayerFootsteps : MonoBehaviour
 
     void CheckToPlayFootstepSound() {
 
-        // if we are NOT on the ground
+        // if we are NOT on the ground 
         if (!character_Controller.isGrounded) 
             return;
             
